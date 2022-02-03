@@ -23,5 +23,22 @@ Changes should also have a description, this not only helps other people to unde
 but it also helps your future self who might not remember why you did that change a month, or even a
 year ago.
 
+## Tools
+
+The main tool of `dot-team` is a command called `dot-config` which uses `git` internally.
+
+You can use `dot-config` exactly like you would use `git`, for example, to check if you've made any
+changes to your `.vimrc` file you can do `dot-config diff .vimrc`. To save your changes to that file
+use `dot-config commit .vimrc`.
+
+Another useful command is `dot-config status`, which allows you to see all the untracked files and
+perhaps add them to the git repository.
+
+If there's a file or directory you know you don't want to keep track of, add it to the `.gitignore`
+file so it doesn't appear in the list of untracked files (it's ignored).
+
+This tool is developed as an independent project: [dot-tools][].
+
 [dotfiles]: https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory
 [git]: https://git-scm.com/
+[dot-tools]: https://github.com/felipec/dot-tools/
