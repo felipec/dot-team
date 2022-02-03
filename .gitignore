@@ -15,3 +15,7 @@
 /.editor
 
 /tmp/
+
+/.steam/
+/.steampath
+/.steampid
