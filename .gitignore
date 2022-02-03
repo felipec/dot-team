@@ -1,0 +1,17 @@
+/.bash_history
+/.ICEauthority
+/.Xauthority
+/.cache/
+/.viminfo
+/.xsession-errors
+/.xsession-errors.old
+/.local/
+/.lesshst
+/.ssh/known_hosts
+/.ssh/*_rsa*
+/.pki/
+
+/.gitconfig
+/.editor
+
+/tmp/
