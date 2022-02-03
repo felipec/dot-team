@@ -1,7 +1,9 @@
 source ~/.rc
 
-test -r /usr/share/bash-completion/completions/git &&
-source /usr/share/bash-completion/completions/git
+if [[ -r /usr/share/bash-completion/completions/git ]]; then
+  source /usr/share/bash-completion/completions/git
+  __git_complete g git
+fi
 
 PS1='\[\e[1;34m\]\h\[\e[m\] \w \[\e[0;32m\]\$\[\e[m\] '
 
