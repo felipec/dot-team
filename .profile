@@ -1,0 +1,1 @@
+[[ -r ~/.editor ]] && source ~/.editor

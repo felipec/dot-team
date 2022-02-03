@@ -1,0 +1,15 @@
+#!/bin/sh
+
+[[ -r ~/.profile ]] && source ~/.profile
+
+if [[ -z "$EDITOR" && -z "$VISUAL" ]]; then
+	echo -n "Which editor do you prefer? (e.g. nano, vim, emacs): "
+	read EDITOR
+	export EDITOR
+	echo "export EDITOR='$EDITOR'" >> ~/.editor
+	echo "export VISUAL='$VISUAL'" >> ~/.editor
+fi
+
+if ! git config user.email > /dev/null; then
+	git config --global --edit
+fi
