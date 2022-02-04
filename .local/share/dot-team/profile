@@ -1,6 +1,6 @@
 source ~/.config/profile
 
-export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.local/bin:/usr/lib/ccache/bin:$PATH"
 
 export GIT_EDITOR=${GIT_EDITOR:-$EDITOR}
 
