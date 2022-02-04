@@ -1,5 +1,8 @@
 source ~/.rc
 
+test -r /usr/share/bash-completion/completions/git &&
+source /usr/share/bash-completion/completions/git
+
 PS1='\[\e[1;34m\]\h\[\e[m\] \w \[\e[0;32m\]\$\[\e[m\] '
 
 # Change the window title of X terminals
