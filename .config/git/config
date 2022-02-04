@@ -18,3 +18,14 @@
 	lg = l --graph
 [init]
 	defaultbranch = master # silence bullshit message
+[merge]
+	conflictstyle = diff3
+[commit]
+	verbose = true
+[rebase]
+	autosquash = true
+[tag]
+	sort = -version:refname
+[rerere]
+	enabled = true
+	autoupdate = true
