@@ -27,3 +27,5 @@ if [[ "$EDITOR" == 'vim' ]]; then
 		curl "https://raw.githubusercontent.com/felipec/vim-felipec/master/colors/felipec.vim" -o ~/.vim/colors/felipec.vim
 	fi
 fi
+
+exec dot-checkout
