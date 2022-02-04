@@ -7,9 +7,9 @@ if [[ -r /usr/share/bash-completion/completions/git ]]; then
 fi
 
 # Dummy version of __git_ps1
-declare -f __git_ps1 > /dev/null || __git_ps1 () {}
+declare -f __git_ps1 > /dev/null || __git_ps1 () { PS1="$1$2"; }
 
-PS1='\[\e[1;34m\]\h\[\e[m\] \w$(__git_ps1 "[%s]") \[\e[0;32m\]\$\[\e[m\] '
+PROMPT_COMMAND='__git_ps1 "\[\e[1;34m\]\h\[\e[m\] \w" " \[\e[0;32m\]\\\$\[\e[m\] " "[%s]"'
 
 # Change the window title of X terminals
 PROMPT_COMMAND="$PROMPT_COMMAND; "'echo -ne "\e]2;${PWD/#$HOME/\~}\a"'
