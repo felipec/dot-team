@@ -6,5 +6,6 @@ export GIT_EDITOR=${GIT_EDITOR:-$EDITOR}
 
 export LESS=${LESS:-'-RXFS --use-color -Dd+r$Du+b'}
 export PS_FORMAT=${PS_FORMAT:-'pid,tty,time,cmd'}
+export MAKEFLAGS=${MAKEFLAGS:-"-j$(nproc)"}
 
 # vim: ft=sh
