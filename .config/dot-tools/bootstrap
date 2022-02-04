@@ -13,3 +13,10 @@ fi
 if ! git config user.email > /dev/null; then
 	git config --global --edit
 fi
+
+if [[ "$EDITOR" == 'vim' ]]; then
+	if [[ ! -e ~/.vim/colors/felipec.vim ]]; then
+		mkdir -p ~/.vim/colors/
+		curl "https://raw.githubusercontent.com/felipec/vim-felipec/master/colors/felipec.vim" -o ~/.vim/colors/felipec.vim
+	fi
+fi
