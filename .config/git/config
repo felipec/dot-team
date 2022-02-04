@@ -16,3 +16,5 @@
 
 	l = log --oneline --decorate --boundary
 	lg = l --graph
+[init]
+	defaultbranch = master # silence bullshit message
