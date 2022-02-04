@@ -1,0 +1,18 @@
+[alias]
+	co = commit
+	br = branch
+	ff = fast-forward
+	pi = cherry-pick
+	rb = rebase
+	mt = mergetool
+	st = status -s -b
+	sg = stage
+	rs = reset
+	sw = switch
+	ls = ls-files
+
+	fast-forward = merge --ff-only
+	undo = reset --hard @{1}
+
+	l = log --oneline --decorate --boundary
+	lg = l --graph
