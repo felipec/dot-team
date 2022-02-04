@@ -23,6 +23,9 @@ alias mv='mv -i'
 eval "$(dircolors -b)"
 
 GIT_PS1_SHOWCOLORHINTS=1
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWUPSTREAM=auto
+GIT_PS1_DESCRIBE_STYLE=branch
 
 test -r /usr/share/git/completion/git-prompt.sh &&
 source /usr/share/git/completion/git-prompt.sh
