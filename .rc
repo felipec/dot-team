@@ -21,3 +21,6 @@ alias m='mv'
 alias mv='mv -i'
 
 eval "$(dircolors -b)"
+
+test -r /usr/share/git/completion/git-prompt.sh &&
+source /usr/share/git/completion/git-prompt.sh
