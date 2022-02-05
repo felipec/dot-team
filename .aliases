@@ -1,6 +1,7 @@
 alias c='dot-config'
 alias v='$VISUAL'
 alias e='$EDITOR'
+alias o='xdg-open'
 
 # color
 alias ls='ls --color=auto -hv'
