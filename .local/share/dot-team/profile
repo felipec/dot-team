@@ -8,4 +8,8 @@ export LESS=${LESS:-'-RXFS --use-color -Dd+r$Du+b'}
 export PS_FORMAT=${PS_FORMAT:-'pid,tty,time,cmd'}
 export MAKEFLAGS=${MAKEFLAGS:-"-j$(nproc)"}
 
+# Bundle doesn't know where to install gems otherwise
+export GEM_HOME=${GEM_HOME:-$(ruby -e 'puts Gem.user_dir')}
+export PATH="$GEM_HOME/bin:$PATH"
+
 # vim: ft=sh
