@@ -9,3 +9,5 @@ setopt extendedglob
 setopt nomatch
 
 autoload -U compinit && compinit
+
+PS1='%F{blue}%B%m%b%f %F{white}%~%f %F{green}%#%f '
