@@ -32,6 +32,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' menu select yes=long
 
 hash -d dot=~/.local/share/dot-files
+hash -d d=~/dev
 
 precmd () {
 	# Change the window title of X terminals
