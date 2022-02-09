@@ -25,6 +25,9 @@
 /Pictures/
 /Videos/
 
+/.histfile
+/.zcompdump
+
 /.steam/
 /.steampath
 /.steampid
