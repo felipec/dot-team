@@ -38,6 +38,8 @@
 /.gnupg/
 /.password-store/
 
+/.npm/
+
 /.steam/
 /.steampath
 /.steampid
