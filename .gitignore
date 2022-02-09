@@ -35,6 +35,8 @@
 /.pki/
 /.gnupg/
 
+/.npm/
+
 /.steam/
 /.steampath
 /.steampid
