@@ -29,6 +29,7 @@
 /.ssh/known_hosts
 /.ssh/*_rsa*
 /.pki/
+/.gnupg/
 
 /.steam/
 /.steampath
