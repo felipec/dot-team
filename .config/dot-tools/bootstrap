@@ -28,4 +28,10 @@ if [[ "$EDITOR" == 'vim' ]]; then
 	fi
 fi
 
-exec dot-checkout
+dot-checkout
+
+if command -v xfconf-load > /dev/null; then
+	echo -n "Do you want to load the Xfce configuration? (y/N): "
+	read load
+	[[ "$load" == 'y' ]] && xfconf-load ~/.config/xfconf-helper/config.yml
+fi
