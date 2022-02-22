@@ -4,9 +4,7 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=50000
 
-setopt autocd
-setopt extendedglob
-setopt nomatch
+setopt auto_cd
 
 autoload -U compinit && compinit
 
