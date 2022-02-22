@@ -1,8 +1,8 @@
-syntax enable
+syntax on
 filetype plugin indent on
 
 set hlsearch
-set clipboard=unnamedplus,autoselect
+set clipboard^=unnamedplus
 
 set formatoptions+=n
 
