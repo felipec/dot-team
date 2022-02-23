@@ -3,6 +3,7 @@
 
 /.cache/
 /.local/
+/.ccache/
 
 /.gitconfig
 /.config/profile
