@@ -1,20 +1,10 @@
-/.bash_history
-/.ICEauthority
-/.Xauthority
+/tmp/
+
 /.cache/
-/.viminfo
-/.xsession-errors
-/.xsession-errors.old
 /.local/
-/.lesshst
-/.ssh/known_hosts
-/.ssh/*_rsa*
-/.pki/
 
 /.gitconfig
 /.editor
-
-/tmp/
 
 /Desktop/
 /Downloads/
@@ -25,8 +15,20 @@
 /Pictures/
 /Videos/
 
+/.ICEauthority
+/.Xauthority
+/.xsession-errors*
+
+/.bash_history
 /.histfile
+/.lesshst
+
 /.zcompdump
+/.viminfo
+
+/.ssh/known_hosts
+/.ssh/*_rsa*
+/.pki/
 
 /.steam/
 /.steampath
