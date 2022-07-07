@@ -5,6 +5,7 @@ HISTSIZE=10000
 SAVEHIST=50000
 
 setopt auto_cd
+setopt inc_append_history
 
 autoload -U compinit && compinit
 
