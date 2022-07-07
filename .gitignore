@@ -20,7 +20,7 @@
 /.xsession-errors*
 
 /.bash_history
-/.histfile
+/.history
 /.lesshst
 
 /.zcompdump

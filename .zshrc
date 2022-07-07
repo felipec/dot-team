@@ -1,6 +1,6 @@
 source ~/.aliases
 
-HISTFILE=~/.histfile
+HISTFILE=~/.history
 HISTSIZE=10000
 SAVEHIST=50000
 
