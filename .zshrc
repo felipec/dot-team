@@ -4,10 +4,10 @@ HISTFILE=~/.history
 HISTSIZE=10000
 SAVEHIST=50000
 
+autoload -U compinit && compinit
+
 setopt auto_cd
 setopt inc_append_history
-
-autoload -U compinit && compinit
 
 PS1='%F{blue}%B%m%b%f %F{white}%~%f %F{green}%#%f '
 
