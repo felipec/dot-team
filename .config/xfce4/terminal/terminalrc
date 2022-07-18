@@ -26,7 +26,6 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-ScrollingOnOutput=FALSE
 TitleMode=TERMINAL_TITLE_REPLACE
 FontUseSystem=TRUE
 ColorForeground=#dddde1
