@@ -1,0 +1,6 @@
+prompt_felipec_setup () {
+  PS1='%F{blue}%B%m%b%f %~ %F{green}%#%f '
+  prompt_opts=(cr percent)
+}
+
+prompt_felipec_setup "$@"
