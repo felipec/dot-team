@@ -36,6 +36,8 @@
 /.pki/
 /.gnupg/
 
+/.proverc
+
 /.npm/
 
 /.steam/
