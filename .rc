@@ -29,3 +29,9 @@ GIT_PS1_DESCRIBE_STYLE=branch
 
 test -r /usr/share/git/completion/git-prompt.sh &&
 source /usr/share/git/completion/git-prompt.sh
+
+# git completions
+
+_git_v () {
+	_git_gitk
+}
