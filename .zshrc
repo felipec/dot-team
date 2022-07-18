@@ -9,7 +9,7 @@ autoload -U compinit && compinit
 setopt auto_cd
 setopt inc_append_history
 
-PS1='%F{blue}%B%m%b%f %F{white}%~%f %F{green}%#%f '
+PS1='%F{blue}%B%m%b%f %~ %F{green}%#%f '
 
 bindkey -e
 bindkey "\e[H" beginning-of-line
