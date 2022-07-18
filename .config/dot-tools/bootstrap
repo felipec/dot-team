@@ -38,3 +38,6 @@ if command -v xfconf-load > /dev/null; then
 	read load
 	[[ "$load" == 'y' ]] && xfconf-load ~/.config/xfconf-helper/config.yml
 fi
+
+# Set prove jobs
+echo "-j$(nproc)" > ~/.proverc

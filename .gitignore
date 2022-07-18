@@ -42,6 +42,8 @@
 /.gnupg/
 /.password-store/
 
+/.proverc
+
 /.npm/
 
 /.steam/
