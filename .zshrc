@@ -1,6 +1,6 @@
 fpath=(~/.zsh $fpath)
 
-source ~/.aliases
+source ~/.rc
 
 HISTFILE=~/.history
 HISTSIZE=10000

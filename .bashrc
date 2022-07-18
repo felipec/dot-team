@@ -1,4 +1,4 @@
-source ~/.aliases
+source ~/.rc
 
 PS1='\[\e[1;34m\]\h\[\e[m\] \w \[\e[0;32m\]\$\[\e[m\] '
 
