@@ -1,3 +1,5 @@
+fpath=(~/.zsh $fpath)
+
 source ~/.aliases
 
 HISTFILE=~/.history
