@@ -3,6 +3,7 @@ shortcuts:
   commands:
     "<Super>Return": exo-open --launch TerminalEmulator
     "<Super>b": exo-open --launch WebBrowser
+    "<Super>l": xflock4
   wm:
     left_workspace: "<Super>Left"
     right_workspace: "<Super>Right"
