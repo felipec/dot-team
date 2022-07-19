@@ -1,15 +1,15 @@
 #!/bin/sh
 
-[[ -r ~/.profile ]] && source ~/.profile
-
-if [[ -z "$EDITOR" && -z "$VISUAL" ]]; then
+if [[ -e ~/.config/profile ]]; then
+	source ~/.config/profile
+else
 	echo -n "Which editor do you prefer? (e.g. nano, vim, emacs): "
 	read EDITOR
 	[[ -z "$EDITOR" ]] && EDITOR='vim'
 	export EDITOR
 	[[ "$EDITOR" == 'vim' ]] && VISUAL='gvim'
-	echo "export EDITOR='$EDITOR'" >> ~/.editor
-	echo "export VISUAL='$VISUAL'" >> ~/.editor
+	echo "export EDITOR='$EDITOR'" >> ~/.config/profile
+	echo "export VISUAL='$VISUAL'" >> ~/.config/profile
 fi
 
 if ! git config user.email > /dev/null; then

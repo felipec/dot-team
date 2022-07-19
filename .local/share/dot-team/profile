@@ -1,0 +1,9 @@
+source ~/.config/profile
+
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+export GIT_EDITOR=${GIT_EDITOR:-$EDITOR}
+
+export LESS=${LESS:-'-RXFS --use-color -Dd+r$Du+b'}
+
+# vim: ft=sh
