@@ -8,8 +8,10 @@ else
 	[[ -z "$EDITOR" ]] && EDITOR='vim'
 	export EDITOR
 	[[ "$EDITOR" == 'vim' ]] && VISUAL='gvim'
-	echo "export EDITOR='$EDITOR'" >> ~/.config/profile
-	echo "export VISUAL='$VISUAL'" >> ~/.config/profile
+	cat <<-EOF > ~/.config/profile
+	export EDITOR='$EDITOR'
+	export VISUAL='$VISUAL'
+	EOF
 fi
 
 if ! git config user.email > /dev/null; then
