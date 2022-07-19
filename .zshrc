@@ -23,6 +23,8 @@ bindkey "\e[3~" delete-char
 bindkey "\e[5~" beginning-of-history
 bindkey "\e[6~" end-of-history
 
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+
 precmd () {
 	# Change the window title of X terminals
 	# http://tldp.org/HOWTO/Xterm-Title-3.html
