@@ -7,6 +7,7 @@ alias o='xdg-open'
 alias ls='ls --color=auto -hv'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
+alias ip='ip -color=auto'
 
 alias l='ls'
 alias ll='ls -l'
