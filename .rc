@@ -15,3 +15,6 @@ alias la='ls -lA'
 alias l1='ls -1'
 
 alias vd='v -d'
+
+alias m='mv'
+alias mv='mv -i'
