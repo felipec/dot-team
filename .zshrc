@@ -27,6 +27,8 @@ bindkey "\e[6~" end-of-history
 
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
+hash -d dot=~/.local/share/dot-files
+
 precmd () {
 	# Change the window title of X terminals
 	# http://tldp.org/HOWTO/Xterm-Title-3.html
