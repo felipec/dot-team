@@ -17,12 +17,13 @@ else
 fi
 
 if ! git config user.email > /dev/null; then
-	cat <<-EOF > ~/.gitconfig
-	[user]
-	  name =
-	  email =
-	EOF
-	git config --file ~/.gitconfig --edit
+	echo "Git configuration"
+	echo -n "What's your name? (e.g. John Doe): "
+	read NAME
+	git config --file ~/.gitconfig user.name "$NAME"
+	echo -n "What's your email? (e.g. john@doe.com): "
+	read EMAIL
+	git config --file ~/.gitconfig user.email "$EMAIL"
 fi
 
 if [[ "$EDITOR" == 'vim' ]]; then
