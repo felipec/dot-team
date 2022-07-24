@@ -39,6 +39,13 @@ file so it doesn't appear in the list of untracked files (it's ignored).
 
 This tool is developed as an independent project: [dot-tools][].
 
+## Setup
+
+Once you have installed [dot-tools][] simply do `dot-setup`, that's it.
+
+All the files from `dot-team` you don't currently have will be fetched, and if there are conflicts
+with files you do currently have (e.g. `.bashrc`) then your version will remain.
+
 [dotfiles]: https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory
 [git]: https://git-scm.com/
 [dot-tools]: https://github.com/felipec/dot-tools/
