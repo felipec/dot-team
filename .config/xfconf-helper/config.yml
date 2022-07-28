@@ -22,12 +22,12 @@ settings:
   xfce4-panel:
     "/panels/dark-mode": true
 panels:
-- size: 30
+- icon-size: 16
   length: 100
   length-adjust: false
   position: p=10;x=0;y=0
   position-locked: true
-  icon-size: 16
+  size: 30
   plugins:
   - - whiskermenu
   - - tasklist
@@ -40,6 +40,7 @@ panels:
     - icon-size: 16
       square-icons: true
   - - pulseaudio
+    - enable-keyboard-shortcuts: true
   - - power-manager-plugin
   - - notification-plugin
   - - clock
