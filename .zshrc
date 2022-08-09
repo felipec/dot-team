@@ -26,6 +26,7 @@ bindkey "\e[5~" beginning-of-history
 bindkey "\e[6~" end-of-history
 
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' menu select yes=long
 
 hash -d dot=~/.local/share/dot-files
 
