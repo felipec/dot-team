@@ -24,7 +24,6 @@ settings:
 panels:
 - icon-size: 16
   length: 100
-  length-adjust: false
   position: p=10;x=0;y=0
   position-locked: true
   size: 30
@@ -44,4 +43,4 @@ panels:
   - - power-manager-plugin
   - - notification-plugin
   - - clock
-    - digital-format: "%R"
+    - digital-layout: 3
