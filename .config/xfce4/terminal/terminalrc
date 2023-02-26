@@ -27,7 +27,6 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 TitleMode=TERMINAL_TITLE_REPLACE
-FontUseSystem=TRUE
 ColorForeground=#dddde1
 ColorBackground=#1e1e22
 ColorCursor=#8fbfef
@@ -37,4 +36,5 @@ ColorSelectionBackground=#ef8fef
 ColorSelectionUseDefault=FALSE
 ColorPalette=#000000;#ef8f8f;#8fef8f;#efef8f;#8f8fef;#ef8fef;#8fefef;#bbbbc3;#787887;#ef8f8f;#8fef8f;#efef8f;#8f8fef;#ef8fef;#8fefef;#dddde1
 TabActivityColor=#8f8fef
+FontUseSystem=TRUE
 
