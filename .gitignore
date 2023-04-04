@@ -45,6 +45,7 @@
 /.proverc
 
 /.npm/
+/.cargo/
 
 /.steam/
 /.steampath
