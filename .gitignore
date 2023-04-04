@@ -42,6 +42,8 @@
 /.npm/
 /.cargo/
 
+/.debug/
+
 /.steam/
 /.steampath
 /.steampid
