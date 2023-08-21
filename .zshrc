@@ -13,7 +13,6 @@ autoload -U compinit && compinit
 autoload -U promptinit && promptinit
 prompt felipec
 
-setopt auto_cd
 setopt inc_append_history
 
 bindkey -e
