@@ -20,4 +20,4 @@ alias vd='v -d'
 alias m='mv'
 alias mv='mv -i'
 
-eval $(dircolors -b)
+eval "$(dircolors -b)"
