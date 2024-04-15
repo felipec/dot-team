@@ -32,6 +32,7 @@
 /.ssh/*_rsa*
 /.pki/
 /.gnupg/
+/.password-store/
 
 /.steam/
 /.steampath
