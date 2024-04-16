@@ -28,7 +28,10 @@ panels:
   position-locked: true
   size: 30
   plugins:
-  - - whiskermenu
+  - - applicationsmenu
+    - show-button-title: false
+      show-generic-names: true
+      show-tooltips: true
   - - tasklist
   - - separator
     - expand: true
