@@ -30,6 +30,8 @@
 
 /.ssh/known_hosts
 /.ssh/*_rsa*
+/.ssh/*_ecdsa*
+/.ssh/*_ed25519*
 /.pki/
 /.gnupg/
 /.password-store/
