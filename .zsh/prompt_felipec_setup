@@ -1,5 +1,6 @@
 prompt_felipec_setup () {
   PS1='%m %F{blue}%B%~%b%f %(!.%F{magenta}❯%f.)%F{%(?.green.red)}❯%f '
+  PS2='%F{cyan}\%f '
   prompt_opts=(cr percent)
 }
 
