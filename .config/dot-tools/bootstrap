@@ -9,7 +9,6 @@ else
 	read EDITOR
 	[[ -z "$EDITOR" ]] && EDITOR='vim'
 	export EDITOR
-	[[ "$EDITOR" == 'vim' ]] && VISUAL='vim'
 	cat <<-EOF > ~/.config/profile
 	export EDITOR='$EDITOR'
 	export VISUAL='$VISUAL'
